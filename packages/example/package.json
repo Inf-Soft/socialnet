@@ -1,0 +1,10 @@
+{
+    "name": "@lexa-ui/example",
+    "version": "1.0.0",
+    "description": "Reusable global example",
+    "main": "dist/lexa-ui-example.cjs.js",
+    "module": "dist/lexa-ui-example.esm.js",
+    "dependencies": {
+        "react": "^17.0.2"
+    }
+}
