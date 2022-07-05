@@ -1,9 +1,24 @@
 {
-  "name": "@socialnet/next-app",
+  "name": "@social-net/next-app-example",
   "version": "1.0.0",
   "scripts": {
+    "lint": "next lint",
+    "tsc": "tsc",
     "dev": "next",
     "build": "next build",
     "start": "next start"
+  },
+  "dependencies": {
+    "@preconstruct/next": "^4.0.0",
+    "@social-net/example": "1.0.0",
+    "@types/social-net__example": "1.0.0",
+    "next": "^12.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@types/react": "^18.0.1",
+    "@types/react-dom": "^18.0.0"
   }
 }

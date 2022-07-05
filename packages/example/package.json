@@ -1,10 +1,19 @@
 {
-    "name": "@lexa-ui/example",
-    "version": "1.0.0",
-    "description": "Reusable global example",
-    "main": "dist/lexa-ui-example.cjs.js",
-    "module": "dist/lexa-ui-example.esm.js",
-    "dependencies": {
-        "react": "^17.0.2"
-    }
+  "name": "@social-net/example",
+  "version": "1.0.0",
+  "description": "Reusable global example",
+  "main": "dist/social-net-example.cjs.js",
+  "module": "dist/social-net-example.esm.js",
+  "scripts": {
+    "dev": "preconstruct dev",
+    "build": "preconstruct build"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@types/react": "^18.0.1",
+    "@types/react-dom": "^18.0.0"
+  }
 }
