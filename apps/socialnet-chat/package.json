@@ -1,5 +1,5 @@
 {
-  "name": "@social-net/next-app-example",
+  "name": "@social-net/socialnet-chat",
   "version": "1.0.0",
   "scripts": {
     "lint": "next lint",
@@ -11,7 +11,6 @@
   "dependencies": {
     "@preconstruct/next": "^4.0.0",
     "@social-net/example": "1.0.0",
-    "@types/social-net__example": "1.0.0",
     "next": "^12.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

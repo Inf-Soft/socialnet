@@ -58,3 +58,4 @@ dist
 *.js~
 
 .scannerwork
+.yarn-error.log

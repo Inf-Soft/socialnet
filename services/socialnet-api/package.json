@@ -1,5 +1,5 @@
 {
-  "name": "@social-net/api-example",
+  "name": "@social-net/socialnet-api",
   "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
@@ -7,7 +7,7 @@
     "watch": "tsc -w",
     "build": "tsc",
     "dev": "NODE_ENV=development ts-node-dev index.ts",
-    "start": "NODE_ENV=production node ./build/index.js",
+    "start": "NODE_ENV=production node ./dist/index.js",
     "debug": "NODE_ENV=development DEBUG=* ts-node-dev index.ts"
   },
   "dependencies": {

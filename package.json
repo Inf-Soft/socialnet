@@ -14,7 +14,11 @@
     "p:build": "yarn preconstruct build",
     "release": "yarn build && changeset publish",
     "mp:check": "yarn manypkg check",
-    "mp:fix": "yarn manypkg fix"
+    "mp:fix": "yarn manypkg fix",
+    "socialnet-api:dev": "yarn manypkg run socialnet-api dev",
+    "socialnet-api:start": "yarn manypkg run socialnet-api start",
+    "socialnet-chat:dev": "yarn manypkg run socialnet-chat dev",
+    "socialnet-chat:start": "yarn manypkg run socialnet-chat start"
   },
   "workspaces": [
     "packages/*",
@@ -53,9 +57,7 @@
   },
   "preconstruct": {
     "packages": [
-      "packages/*",
-      "apps/*",
-      "services/*"
+      "packages/*"
     ]
   }
 }

@@ -1,0 +1,17 @@
+node_modules
+.editor_config
+.yarn-error.log
+.next
+public
+coverage
+build
+dist
+.husky
+
+**/node_modules/**
+**/.next/**
+**/public/**
+**/coverage/**
+**/build/**
+**/.husky/**
+**/dist/**
