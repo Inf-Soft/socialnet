@@ -1,6 +1,7 @@
 {
   "name": "@social-net/socialnet-chat",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "lint": "next lint",
     "tsc": "tsc",

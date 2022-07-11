@@ -5,7 +5,7 @@ services:
     container_name: socialnet-chat
     build:
       context: ./
-      dockerfile: ./apps/socialnet-chat/production.Dockerfile
+      dockerfile: ./apps/socialnet-chat/development.Dockerfile
     environment:
       PORT: 3000
     depends_on:
@@ -20,7 +20,7 @@ services:
     container_name: socialnet-api
     build:
       context: ./
-      dockerfile: ./services/socialnet-api/production.Dockerfile
+      dockerfile: ./services/socialnet-api/development.Dockerfile
     environment:
       PORT: 4000
     ports:

@@ -3,9 +3,9 @@ import express from 'express';
 const app = express();
 app.use(express.json());
 
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 4000;
 
-const messageExpressServer: string = 'Server running in port:';
+const messageExpressServer: string = `Server running in port: ${port}`;
 
 app.get('/', (req, res) => {
   res.send(messageExpressServer);

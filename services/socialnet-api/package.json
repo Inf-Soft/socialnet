@@ -2,6 +2,7 @@
   "name": "@social-net/socialnet-api",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "license": "MIT",
   "scripts": {
     "tsc": "tsc --build",
     "watch": "tsc -w",

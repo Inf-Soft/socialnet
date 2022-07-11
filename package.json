@@ -16,8 +16,10 @@
     "mp:check": "yarn manypkg check",
     "mp:fix": "yarn manypkg fix",
     "socialnet-api:dev": "yarn manypkg run socialnet-api dev",
+    "socialnet-api:build": "yarn manypkg run socialnet-api build",
     "socialnet-api:start": "yarn manypkg run socialnet-api start",
     "socialnet-chat:dev": "yarn manypkg run socialnet-chat dev",
+    "socialnet-chat:build": "yarn manypkg run socialnet-chat build",
     "socialnet-chat:start": "yarn manypkg run socialnet-chat start"
   },
   "workspaces": [

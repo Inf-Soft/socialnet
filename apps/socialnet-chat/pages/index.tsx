@@ -5,7 +5,7 @@ import ExampleComponent from '@social-net/example';
 const Index = () => {
   return (
     <div>
-      <button onClick={() => alert('Hello!')}>Hello World!</button>
+      <button onClick={() => alert('Hello!')}>Hello World!!!!!!</button>
       <ExampleComponent />
     </div>
   );
