@@ -34,4 +34,40 @@
   - Typescript: https://www.typescriptlang.org/docs/handbook/intro.html
   - Sequealize: https://sequelize.org/docs/v6/
 
+# Para levantar las apps:
+## 1- Con docker:
+### 1.1- Si tienes instalado make
+ ```$ make dev``` => Este comando levanta entorno de desarrollo
+
+ ```$ make prod``` => Este comando levanta entorno de producción
+
+ 
+ ```$ make test``` => Este comando levanta entorno de testing
+
+### 1.2- Si no tienes instalado make
+prod => ```$ docker-compose up -d --force-recreate```
+
+dev => ```$ docker compose -f docker-compose-dev.yml up --force-recreate```
+
+test => ```$ docker compose -f docker-compose-test.yml up --force-recreate```
+
+## 2- Sin docker
+### 2.1- socialnet-api
+  ```$ yarn socialnet-api:dev``` => desarrollo
+
+  ```$ yarn socialnet-api:build``` => construir la app para producción
+
+  ```$ yarn socialnet-api:start``` => echar andar la app para producción
+
+  ```$ yarn socialnet-api:test``` => correr los test
+### 2.2- socialnet-chat
+
+  ```$ yarn socialnet-chat:dev``` => desarrollo
+
+  ```$ yarn socialnet-chat:build``` => construir la app para producción
+
+  ```$ yarn socialnet-chat:start``` => echar andar la app para producción
+
+  ```$ yarn socialnet-chat:test``` => correr los test
+
 # Mas documentación dentro de la carpeta de ./docs
