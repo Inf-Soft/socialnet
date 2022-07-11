@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  socialnet-chat:
+  socialnet-chat-tests:
     container_name: socialnet-chat
     build:
       context: ./
@@ -16,7 +16,7 @@ services:
       - ./:/usr/src
       - /usr/src/node_modules
 
-  socialnet-api:
+  socialnet-api-tests:
     container_name: socialnet-api
     build:
       context: ./

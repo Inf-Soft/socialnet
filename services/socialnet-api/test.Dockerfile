@@ -10,6 +10,7 @@ COPY ["./", "/usr/src/"]
 
 EXPOSE 3000
 
-RUN yarn global add typescript 
+RUN yarn global add typescript \
+    && yarn
 
 CMD ["yarn", "socialnet-api:test"]
