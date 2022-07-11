@@ -7,10 +7,11 @@ const port = process.env.PORT || 4000;
 
 const messageExpressServer: string = `Server running in port: ${port}`;
 
-app.get('/', (req, res) => {
+app.get('/', (_req, res) => {
   res.send(messageExpressServer);
 });
 
 app.listen(port, () => {
+  // eslint-disable-next-line no-console
   console.log(messageExpressServer, port);
 });

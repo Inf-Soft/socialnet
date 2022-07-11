@@ -18,9 +18,11 @@
     "socialnet-api:dev": "yarn manypkg run socialnet-api dev",
     "socialnet-api:build": "yarn manypkg run socialnet-api build",
     "socialnet-api:start": "yarn manypkg run socialnet-api start",
+    "socialnet-api:test": "yarn manypkg run socialnet-api test",
     "socialnet-chat:dev": "yarn manypkg run socialnet-chat dev",
     "socialnet-chat:build": "yarn manypkg run socialnet-chat build",
-    "socialnet-chat:start": "yarn manypkg run socialnet-chat start"
+    "socialnet-chat:start": "yarn manypkg run socialnet-chat start",
+    "socialnet-chat:test": "yarn manypkg run socialnet-chat test"
   },
   "workspaces": [
     "packages/*",

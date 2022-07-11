@@ -17,7 +17,7 @@
   - https://nodejs.org/es/download/
 - Yarn
   - Correr este comando: ``` npm install -G yarn ```
-
+- Debes installar mysql en tu pc y configurar las variables de entorno en los .env de los diferentes proyectos
 # Documentación que te recomiendo tener:
 - Monorepo: https://monorepo.guide/getting-started
 - Jest (Testing): https://jestjs.io/docs/getting-started
@@ -34,4 +34,4 @@
   - Typescript: https://www.typescriptlang.org/docs/handbook/intro.html
   - Sequealize: https://sequelize.org/docs/v6/
 
-# Mas documentación dentro de la carpeta de docs
+# Mas documentación dentro de la carpeta de ./docs

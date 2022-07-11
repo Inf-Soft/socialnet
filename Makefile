@@ -4,6 +4,9 @@ prod:
 dev:
 	docker compose -f docker-compose-dev.yml up --force-recreate
 
+test:
+	docker compose -f docker-compose-test.yml up --force-recreate
+
 down:
 	docker compose down
 
