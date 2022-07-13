@@ -9,8 +9,9 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "resolveJsonModule": true,
+    "isolatedModules": false,
     "allowSyntheticDefaultImports": true,
    "baseUrl": "."
   },
-  "lib": ["es2015"]
+  "lib": ["es2015"],
 }

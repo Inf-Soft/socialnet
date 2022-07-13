@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   socialnet-chat-tests:
-    container_name: socialnet-chat
+    container_name: socialnet-chat-tests
     build:
       context: ./
       dockerfile: ./apps/socialnet-chat/test.Dockerfile
@@ -11,20 +11,20 @@ services:
     depends_on:
       - socialnet-api
     ports:
-      - '3000:3000'
+      - '3001:3000'
     volumes:
       - ./:/usr/src
       - /usr/src/node_modules
 
   socialnet-api-tests:
-    container_name: socialnet-api
+    container_name: socialnet-api-tests
     build:
       context: ./
       dockerfile: ./services/socialnet-api/test.Dockerfile
     environment:
       PORT: 4000
     ports:
-      - '4000:4000'
+      - '4001:4000'
     volumes:
       - ./:/usr/src
       - /usr/src/node_modules
