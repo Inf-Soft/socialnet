@@ -2,13 +2,13 @@ FROM node:18.4.0 as builder
 
 COPY ["./package.json", "./yarn.lock", "/usr/src/"]
 
-WORKDIR /usr/src 
+WORKDIR /usr/src
 
 RUN yarn --only=production
 
-COPY [".", "/usr/src/"] 
+COPY [".", "/usr/src/"]
 
-RUN yarn --only=development 
+RUN yarn --only=development
 
 RUN yarn socialnet-chat:test
 

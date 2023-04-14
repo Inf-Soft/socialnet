@@ -8,8 +8,6 @@ services:
       dockerfile: ./apps/socialnet-chat/test.Dockerfile
     environment:
       PORT: 3000
-    depends_on:
-      - socialnet-api
     ports:
       - '3001:3000'
     volumes:
