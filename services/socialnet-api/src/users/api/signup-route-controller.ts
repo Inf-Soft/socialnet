@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
 import { body } from 'express-validator';
-import { SignUpService } from '@app/auth/usecases';
+import { SignUpService } from '@app/users/usecases';
 
 import RouteControllerBase from '@app/common/abstracts/route-controller-base';
 import verifyErrorMiddleware from '@app/common/middlewares/verify-error-middleware';

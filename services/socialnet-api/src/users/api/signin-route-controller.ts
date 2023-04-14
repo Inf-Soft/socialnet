@@ -1,9 +1,9 @@
 import express, { Request, Response } from 'express';
 import { body } from 'express-validator';
-import { SignInService } from '@app/auth/usecases';
+import { SignInService } from '@app/users/usecases';
 
 import verifyErrorMiddleware from '@app/common/middlewares/verify-error-middleware';
-import { UserDto } from '@app/auth/domain/models/user.dto';
+import { UserDto } from '@app/users/domain/models/user.dto';
 import CreateJwt from '@app/common/jwt/create-jwt';
 import RouteControllerBase from '@app/common/abstracts/route-controller-base';
 

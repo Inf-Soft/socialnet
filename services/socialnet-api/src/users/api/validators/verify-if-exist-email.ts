@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from 'express';
-import { GetUserByEmailService } from '@app/auth/usecases';
-import { UserDto } from '@app/auth/domain/models/user.dto';
+import { GetUserByEmailService } from '@app/users/usecases';
+import { UserDto } from '@app/users/domain/models/user.dto';
 import BadRequestError from '@app/common/errors/bad-request-error';
 
 class VerifyIfExistEmail {

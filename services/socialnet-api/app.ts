@@ -9,7 +9,7 @@ import {
   SignInRouteController,
   SignOutRouteController,
   SignUpRouteController,
-} from '@app/auth/api';
+} from '@app/users/api';
 import EnvironmentsVerification from './src/common/utils/environments-verification';
 import RouteControllerBase from './src/common/abstracts/route-controller-base';
 import NotFoundError from './src/common/errors/not-found-error';

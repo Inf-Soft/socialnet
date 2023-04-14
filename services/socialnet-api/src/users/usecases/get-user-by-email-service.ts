@@ -1,4 +1,4 @@
-import { UserRepository } from '@app/auth/domain';
+import { UserRepository } from '@app/users/domain';
 import { UserDto } from '../domain/models/user.dto';
 
 class GetUserByEmail {

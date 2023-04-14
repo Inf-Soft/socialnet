@@ -23,6 +23,10 @@ services:
       dockerfile: ./services/socialnet-api/development.Dockerfile
     environment:
       PORT: 4000
+      DB_URI_SERVER: 'localhost'
+      DB_NAME: 'socialnet'
+      DB_USER: admin
+      DB_PASSWORD: admin123456
     ports:
       - '4000:4000'
     volumes:

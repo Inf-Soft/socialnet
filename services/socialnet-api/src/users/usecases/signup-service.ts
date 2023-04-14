@@ -1,5 +1,5 @@
-import { UserAuthenticationRequestDto } from '@app/auth/api/models';
-import { UserCrudRepository } from '@app/auth/domain';
+import { UserAuthenticationRequestDto } from '@app/users/api/models';
+import { UserCrudRepository } from '@app/users/domain';
 import { UserDto } from '../domain/models/user.dto';
 
 class SignupService {

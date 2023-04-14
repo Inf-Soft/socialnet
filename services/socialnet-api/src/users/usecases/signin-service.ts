@@ -1,5 +1,5 @@
-import { UserRepository } from '@app/auth/domain';
-import { UserAuthenticationRequestDto } from '@app/auth/api/models';
+import { UserRepository } from '@app/users/domain';
+import { UserAuthenticationRequestDto } from '@app/users/api/models';
 import BadRequestError from '@app/common/errors/bad-request-error';
 import { HashPasswordService } from '.';
 import { UserDto } from '../domain/models/user.dto';
