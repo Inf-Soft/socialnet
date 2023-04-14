@@ -1,17 +1,15 @@
-import express from 'express';
+import RouteControllerBase from '@app/common/abstracts/route-controller-base';
+import { app, routes } from './app';
 
-const app = express();
-app.use(express.json());
+const start = async () => {
+  if (!process.env.JWT_KEY) throw new Error('JWT_KEY undefined!!!');
+  if (!process.env.MONGO_URI) throw new Error('MONGO_URI must be defined');
+  routes.forEach((route: RouteControllerBase) => {
+    console.log(`Routes configured for ${route.name}, with path: ${route.path}`);
+  });
+  app.listen(4000, () => {
+    console.log('The Server is running!!!');
+  });
+};
 
-const port = process.env.PORT || 4000;
-
-const messageExpressServer: string = `Server running in port: ${port}`;
-
-app.get('/', (_req, res) => {
-  res.send(messageExpressServer);
-});
-
-app.listen(port, () => {
-  // eslint-disable-next-line no-console
-  console.log(messageExpressServer, port);
-});
+start();
