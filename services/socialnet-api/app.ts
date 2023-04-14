@@ -1,3 +1,4 @@
+import 'reflect-metadata';
 import express from 'express';
 import 'express-async-errors'; // esto resuelve el problea de lanzar errores en funciones con async
 import cookieSession from 'cookie-session';

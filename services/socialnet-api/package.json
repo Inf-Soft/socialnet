@@ -15,6 +15,7 @@
     "debug": "NODE_ENV=development DEBUG=* ts-node-dev index.ts"
   },
   "dependencies": {
+    "@types/cookie-session": "^2.0.44",
     "better-sqlite3": "^8.3.0",
     "body-parser": "^1.20.2",
     "cookie-session": "^2.0.0",
@@ -32,14 +33,12 @@
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.4",
-    "@types/cookie-session": "^2.0.44",
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.13",
     "@types/helmet": "^4.0.0",
     "@types/jest": "^28.1.4",
     "@types/node": "^17.0.35",
     "@types/supertest": "^2.0.12",
-    "better-sqlite3": "^8.3.0",
     "jest": "^28.1.2",
     "ts-jest": "^28.0.5",
     "tsconfig-paths": "^4.2.0"
